@@ -1,4 +1,6 @@
-/* lemony css */
+.body{
+    display: block;
+}
 
 .login-left-img img {
     display: block;
