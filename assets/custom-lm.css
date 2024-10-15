@@ -50,3 +50,39 @@ h1{
 .customer form {
     margin-top: 32px;
 }
+
+.login-button-block {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    margin: 24px 0px 32px 0px;
+}
+
+.login-button-block button {
+    margin: 0px;
+    display: inline-block;
+    width: 100%;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 12px 18px;
+}
+.login a[href="#recover"] {
+    color: var(--Cobalt-grey, #53575A);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: underline;
+}
+.login a {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    text-decoration: none;
+}
+button.btn-create-cta {
+    background: transparent;
+    text-decoration: none;
+}
