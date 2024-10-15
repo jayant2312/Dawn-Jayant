@@ -162,11 +162,9 @@
             <button>
               {{ 'customer.login_page.sign_in' | t }}
             </button>
-            <button class="btn-create-cta" href="{{ routes.account_register_url }}">
-              
-                {{ 'customer.login_page.create_account' | t }}
-              
-            </button>
+            <a class="btn-create-cta" href="{{ routes.account_register_url }}"> 
+              {{ 'customer.login_page.create_account' | t }}
+            </a>
           </div>  
           <a href="#recover">
             {{ 'customer.login_page.forgot_password' | t }}
