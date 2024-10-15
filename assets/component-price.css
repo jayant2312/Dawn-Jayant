@@ -19,8 +19,13 @@
 }
 
 .price .price-item {
-  display: inline-block;
-  margin: 0 1rem 0 0;
+    display: inline-block;
+    margin: 0 1rem 0 0;
+    color: #1A0621;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 1.26px;
 }
 
 .price__regular .price-item--regular {
@@ -74,9 +79,11 @@
 }
 
 .price--on-sale .price__sale {
-  display: initial;
-  flex-direction: row;
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+  
+    align-items: center;
 }
 
 .price--center {

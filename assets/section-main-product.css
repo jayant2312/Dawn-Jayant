@@ -190,7 +190,11 @@ product-info {
 }
 
 .product-form__submit {
-  margin-bottom: 1rem;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
 }
 
 .product-form__submit[aria-disabled='true'] + .shopify-payment-button .shopify-payment-button__button[disabled],
@@ -247,7 +251,7 @@ a.product__text {
 
 .product__title {
   word-break: break-word;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0;
 }
 
 .product__title > * {
@@ -274,10 +278,6 @@ a.product__text {
   margin-bottom: 0.5rem;
 }
 
-.product .price__container {
-  margin-bottom: 0.5rem;
-}
-
 .product .price dl {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -288,10 +288,6 @@ a.product__text {
 }
 
 @media screen and (min-width: 750px) {
-  .product__info-container {
-    max-width: 60rem;
-  }
-
   .product__info-container .price--on-sale .price-item--regular {
     font-size: 1.6rem;
   }
@@ -361,10 +357,6 @@ a.product__text {
 
 .product-form__quantity-top .form__label {
   margin-bottom: 1.2rem;
-}
-
-.product-form__buttons {
-  max-width: 44rem;
 }
 
 .product--no-media .product__info-container > modal-opener {
@@ -1491,4 +1483,12 @@ a.product__text {
   .recipient-form > input[type='checkbox']:checked + label .icon-checkmark {
     border: none;
   }
+}
+.product__title h1{
+    font-size: 28px;
+    line-height: 30px;
+    letter-spacing: 0.84px;
+}
+product-info {
+    padding: 0 40px 0 0;
 }

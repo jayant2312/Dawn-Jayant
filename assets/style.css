@@ -6,7 +6,7 @@ p{font-size:15px;line-height:21px;font-family:"rival-sans";}
 a{transition:all .5s;}
 img{max-width:100%;vertical-align:top}
 select:focus{outline:none;box-shadow:none}
-.btn,.button,.button-label,.shopify-challenge__button,.customer button{text-align:center;transition:all .5s;min-width:auto;min-height:auto;text-decoration:none;line-height:normal;font-size:14px;font-weight:400;padding:10px 30px;letter-spacing:0;}
+.btn,.button,.button-label,.shopify-challenge__button,.customer button{text-align:center;transition:all .5s;min-width:auto;min-height:auto;text-decoration:none;line-height:normal;font-size:14px;font-weight:400;padding:12px 30px;letter-spacing:0;}
 .page-width,.page-width-desktop{padding:0 30px;}
 
 @font-face {

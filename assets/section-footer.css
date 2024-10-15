@@ -149,18 +149,17 @@
   }
 }
 
-.footer-block__heading {
-  margin-bottom: 2rem;
-  margin-top: 0;
-  font-size: calc(var(--font-heading-scale) * 1.6rem);
-}
+.footer-block--menu .footer-block__heading {
+    color: #DBD6D2;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    font-family: "rival-sans";
+      margin: 0 0 12px 0;
 
-@media screen and (min-width: 990px) {
-  .footer-block__heading {
-    font-size: calc(var(--font-heading-scale) * 1.8rem);
-  }
 }
-
 .footer__list-social:empty,
 .footer-block--newsletter:empty {
   display: none;
@@ -266,7 +265,7 @@
 
 .footer__localization h2 {
   margin: 1rem 1rem 0.5rem;
-  color: rgba(var(--color-foreground), 0.75);
+  color: rgba(var(--color-foreground), 1);
 }
 
 @media screen and (min-width: 750px) {
@@ -330,14 +329,11 @@
     display: inline;
   }
 
-  .footer-block__details-content > li:not(:last-child) {
-    margin-right: 1.5rem;
-  }
 }
 
 .footer-block__details-content .list-menu__item--link,
 .copyright__content a {
-  color: rgba(var(--color-foreground), 0.75);
+  color: rgba(var(--color-foreground), 1);
 }
 
 .footer-block__details-content .list-menu__item--active {
@@ -357,29 +353,24 @@
     text-decoration-thickness: 0.2rem;
   }
 }
-
-@media screen and (max-width: 989px) {
-  .footer-block__details-content .list-menu__item--link {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
+.footer-block__details-content .list-menu__item--link{
+font-size: 18px;
+font-weight: 300;
+line-height: 26px;
+letter-spacing: 0.72px;
+  font-family:"rival-sans";
 }
-
-@media screen and (min-width: 750px) {
-  .footer-block__details-content .list-menu__item--link {
-    display: inline-block;
-    font-size: 1.4rem;
-  }
-
-  .footer-block__details-content > :first-child .list-menu__item--link {
-    padding-top: 0;
-  }
-}
-
 .footer-block-image {
   display: flex;
 }
-
+.footer-block__heading {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0.66px;
+    text-transform: uppercase;
+    font-family: "rival-sans";
+}
 .footer-block-image.left {
   justify-content: flex-start;
 }
