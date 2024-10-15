@@ -1,26 +1,22 @@
+/* Login page css */
 .login-left-img img {
     display: block;
     width: 100%;
     object-fit: cover;
 }
-
 .login-row{
     background: var(--Cobalt-ligther, #E7EAEB);
 }
-
 h1{
     font-family: "TAN - MON CHERI";
 }
-
 .customer:not(.account):not(.order){
     text-align: left;
     padding: 0px;
 }
-
 .field__input, .select__select, .customer .field input, .customer select{
     background-color: transparent;
 }
-
 .field label {
     font-size: 14px;
     font-style: italic;
@@ -50,7 +46,6 @@ h1{
 .customer form {
     margin-top: 32px;
 }
-
 .login-button-block {
     display: flex;
     align-items: flex-start;
@@ -58,7 +53,6 @@ h1{
     align-self: stretch;
     margin: 24px 0px 32px 0px;
 }
-
 .login-button-block button {
     margin: 0px !important;
     display: inline-block;
