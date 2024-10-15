@@ -3,3 +3,7 @@
     width: 100%;
     object-fit: cover;
 }
+
+.login-row{
+    background: var(--Cobalt-ligther, #E7EAEB);
+}
