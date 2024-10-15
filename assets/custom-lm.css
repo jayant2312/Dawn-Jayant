@@ -22,5 +22,31 @@ h1{
 }
 
 .field label {
+    font-size: 14px;
     font-style: italic;
+    font-weight: 300;
+}
+.field__input:focus, .field__input:not(:placeholder-shown), .field__input:-webkit-autofill, .customer .field input:focus, .customer .field input:not(:placeholder-shown), .customer .field input:-webkit-autofill {
+    padding: 2rem;
+    margin: var(--inputs-border-width);
+}
+.field__input:focus~.field__label, .field__input:not(:placeholder-shown)~.field__label, .field__input:-webkit-autofill~.field__label, .customer .field input:focus~label, .customer .field input:not(:placeholder-shown)~label, .customer .field input:-webkit-autofill~label {
+    font-size: 1rem;
+    top: calc(var(--inputs-border-width) + .5rem);
+    left: calc(var(--inputs-border-width) + 2rem);
+    letter-spacing: .04rem;
+    display: none;
+}
+.field__input, .customer .field input {
+    flex-grow: 1;
+    text-align: left;
+    padding: 2rem;
+    margin: var(--inputs-border-width);
+    transition: box-shadow var(--duration-short) ease;
+}
+.login-row h1 {
+    text-align: left;
+}
+.customer form {
+    margin-top: 32px;
 }
