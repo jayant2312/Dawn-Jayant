@@ -20,15 +20,17 @@
 
 <div class="row">
   <div class="col-md-6">
-    {%- if section.settings.login_left_image != blank -%}
-      {{
-        section.settings.login_left_image
-        | image_url: width: auto
-        | image_tag: sizes: sizes, widths: '550, 720, 990, 1100, 1500, 2200, 3000'
-      }}
-    {%- else -%}
-      {{ 'hero-apparel-3' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
-    {%- endif -%}  
+    <div class="login-left-img">
+      {%- if section.settings.login_left_image != blank -%}
+        {{
+          section.settings.login_left_image
+          | image_url: width: auto
+          | image_tag: sizes: sizes, widths: '550, 720, 990, 1100, 1500, 2200, 3000'
+        }}
+      {%- else -%}
+        {{ 'hero-apparel-3' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
+      {%- endif -%}
+    </div>  
   </div>
   <div class="col-md-6">
     <div class="customer login section-{{ section.id }}-padding">
