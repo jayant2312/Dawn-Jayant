@@ -18,6 +18,7 @@
   {%- assign hide_shop_login_button = true -%}
 {%- endif -%}
 
+<>
 <div class="customer login section-{{ section.id }}-padding">
   <h1 id="recover" tabindex="-1">
     {{ 'customer.recover_password.title' | t }}
@@ -177,6 +178,12 @@
       "type": "checkbox",
       "id": "enable_shop_login_button",
       "label": "t:sections.main-login.shop_login_button.enable",
+      "default": true
+    },
+    {
+      "type": "iamge",
+      "id": "login_left_image",
+      "label": "Upload Left Side Image",
       "default": true
     },
     {
