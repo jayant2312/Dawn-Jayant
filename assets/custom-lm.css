@@ -60,7 +60,7 @@ h1{
 }
 
 .login-button-block button {
-    margin: 0px;
+    margin: 0px !important;
     display: inline-block;
     width: 100%;
     font-size: 14px;
