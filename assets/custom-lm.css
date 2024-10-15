@@ -11,3 +11,12 @@
 h1{
     font-family: "TAN - MON CHERI";
 }
+
+.customer:not(.account):not(.order){
+    text-align: left;
+    padding: 0px;
+}
+
+.field__input, .select__select, .customer .field input, .customer select{
+    background-color: transparent;
+}
