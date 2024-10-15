@@ -12,7 +12,8 @@
     "main": {
       "type": "main-login",
       "settings": {
-        "enable_shop_login_button": "true",
+        "enable_shop_login_button": false,
+        "login_left_image": "shopify://shop_images/image_4.png",
         "padding_top": 36,
         "padding_bottom": 36
       }
