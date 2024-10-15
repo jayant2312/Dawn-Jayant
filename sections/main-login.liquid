@@ -22,8 +22,8 @@
   <div class="col-md-6">
     {%- if section.settings.login_left_image != blank -%}
       {{
-        .settings.login_left_image
-        | image_url: width: 100%
+        section.settings.login_left_image
+        | image_url: width: auto
         | image_tag: sizes: sizes, widths: '550, 720, 990, 1100, 1500, 2200, 3000'
       }}
     {%- else -%}
