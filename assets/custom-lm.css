@@ -20,3 +20,7 @@ h1{
 .field__input, .select__select, .customer .field input, .customer select{
     background-color: transparent;
 }
+
+.field label {
+    font-style: italic;
+}
