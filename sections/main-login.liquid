@@ -158,13 +158,16 @@
            
           {%- endif -%}
     
-          <button>
-            {{ 'customer.login_page.sign_in' | t }}
-          </button>
-    
-          <a href="{{ routes.account_register_url }}">
-            {{ 'customer.login_page.create_account' | t }}
-          </a>
+          <div class="login-button-block">
+            <button>
+              {{ 'customer.login_page.sign_in' | t }}
+            </button>
+            <button>
+              <a href="{{ routes.account_register_url }}">
+                {{ 'customer.login_page.create_account' | t }}
+              </a>
+            </button>
+          </div>  
           <a href="#recover">
             {{ 'customer.login_page.forgot_password' | t }}
           </a>
