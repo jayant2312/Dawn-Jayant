@@ -144,8 +144,7 @@ justify-content: center; /* Center content vertically */
     height: 25px;
     appearance: none; /* Remove default checkbox styling */
     background-color: #e8eaeb;
-    border: 2px solid #000; /* Custom border */
-    border-radius: 4px; /* Optional: rounded corners */
+    border: 1px solid #000; /* Custom border */
     position: relative;
 }
 
