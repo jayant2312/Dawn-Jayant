@@ -4,6 +4,7 @@
     width: 100%;
     object-fit: cover;
     object-position: top;
+    height: 100%;
 }
 .login-row{
     background: var(--Cobalt-ligther, #E7EAEB);
