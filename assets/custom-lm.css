@@ -201,7 +201,7 @@ justify-content: center; /* Center content vertically */
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .login-row .customer:not(.account):not(.order), .contact.contact-form-box {
         max-width: 100%;
-        margin: 0px 30px;
+        margin: 30px 30px;
     }
     .login-button-block {
         display: flex;
@@ -231,6 +231,14 @@ justify-content: center; /* Center content vertically */
     }
     .text-center-mobile{
         text-align: center;
+    }
+    .login-left-img img {
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        object-position: top;
+        height: 100%; 
+        max-height: 320px;
     }
     
 }
