@@ -130,20 +130,21 @@ justify-content: center; /* Center content vertically */
 .h1{
     text-transform: uppercase;
 }
-.login-row .customer:not(.account):not(.order){
+.login-row .customer:not(.account):not(.order) {
     max-width: 100%;
 }
-@media screen and (min-width: 768px) and (max-width: 991px)  {
-    .login-row .customer:not(.account):not(.order){
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .login-row .customer:not(.account):not(.order) {
         max-width: 100%;
         margin: 0px 30px;
+    }
 }
+
 @media screen and (max-width: 767px) {
-    .login-row .customer:not(.account):not(.order){
+    .login-row .customer:not(.account):not(.order) {
         max-width: 100%;
         margin: 32px 16px;
     }
 }
 
-
-}
