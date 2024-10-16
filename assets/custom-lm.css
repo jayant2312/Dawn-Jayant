@@ -229,5 +229,9 @@ justify-content: center; /* Center content vertically */
     .login-right-box{
         border: 0px;
     }
+    .text-center-mobile{
+        text-align: center;
+    }
+    
 }
 

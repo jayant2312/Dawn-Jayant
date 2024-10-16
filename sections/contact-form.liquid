@@ -19,12 +19,12 @@
     <div class="col-md-6 p-0">
       <div class="contact contact-form-box page-width page-width--narrow">
         {%- if section.settings.heading != blank -%}
-          <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+          <h2 class="title title-wrapper--no-top-margin text-center-mobile inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
             {{ section.settings.heading }}
           </h2>
         {%- endif -%}
         {%- if section.settings.sub_text != blank -%}
-          <div class="contact-sub-text">
+          <div class="contact-sub-text text-center-mobile">
             {{ section.settings.sub_text }}
           </div>
         {%- endif -%}  
