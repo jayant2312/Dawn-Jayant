@@ -163,5 +163,8 @@ justify-content: center; /* Center content vertically */
         margin: 24px 0 32px;
         flex-direction: column;
     }
+    .login-right-box{
+        border: 0px;
+    }
 }
 
