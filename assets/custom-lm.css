@@ -62,9 +62,7 @@
     text-transform: uppercase;
     padding: 12px 18px;
 }
-.login-row button {
-    text-transform: uppercase;
-}
+
 .login a[href="#recover"] {
     color: var(--Cobalt-grey, #53575A);
     font-size: 13px;
@@ -92,7 +90,9 @@ a.btn-create-cta {
 .login-row button:after, .login-row button:before {
     display: none;
 }
-
+.login-row button, .customer.reset-password button {
+    text-transform: uppercase;
+}
 .login-row button:hover, .customer.reset-password button:hover{
     background: var(--Cobalt-grey, #53575A);
     color: var(--White, var(--colours-bw-white, #FFF));
