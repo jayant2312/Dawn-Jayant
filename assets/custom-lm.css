@@ -52,7 +52,7 @@
     align-self: stretch;
     margin: 24px 0px 32px 0px;
 }
-.login-row button {
+.login-button-block button {
     margin: 0px !important;
     display: inline-block;
     width: 100%;
@@ -61,6 +61,9 @@
     font-weight: 400;
     text-transform: uppercase;
     padding: 12px 18px;
+}
+.login-row button {
+    text-transform: uppercase;
 }
 .login a[href="#recover"] {
     color: var(--Cobalt-grey, #53575A);
