@@ -84,3 +84,12 @@ a.btn-create-cta {
     padding: 12px 18px;
     line-height: normal
 }
+
+.login-button-block button:after, .login-button-block button::before {
+    display: none;
+}
+
+.login-button-block button:hover{
+    background: var(--Cobalt-grey, #53575A);
+    color: var(--White, var(--colours-bw-white, #FFF));
+}
