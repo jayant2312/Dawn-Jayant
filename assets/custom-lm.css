@@ -172,6 +172,10 @@ justify-content: center; /* Center content vertically */
 .checkbox-field label a:hover {
     text-decoration: none;
 }
+.contact.contact-form-box {
+    margin: 0 120px;
+    padding: 0px;
+}
 /* Mobile to tab */
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .login-row .customer:not(.account):not(.order) {
