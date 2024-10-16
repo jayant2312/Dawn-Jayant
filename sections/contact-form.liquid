@@ -35,9 +35,12 @@
           <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
             {{ section.settings.heading }}
           </h2>
-        {%- else -%}
-          <h2 class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
         {%- endif -%}
+        {%- if section.settings.sub_text != blank -%}
+          <div class="contact-sub-text">
+            {{ section.settings.sub_text }}
+          </div>
+        {%- endif -%}  
         {%- liquid
           assign contact_form_class = 'isolate'
           if settings.animations_reveal_on_scroll
