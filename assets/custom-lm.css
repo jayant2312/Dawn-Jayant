@@ -140,10 +140,10 @@ justify-content: center; /* Center content vertically */
 
 .checkbox-field input[type="checkbox"] {
     margin-right: 10px;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
     appearance: none; /* Remove default checkbox styling */
-    background-color: #fff;
+    background-color: #e8eaeb;
     border: 2px solid #000; /* Custom border */
     border-radius: 4px; /* Optional: rounded corners */
     position: relative;
@@ -156,8 +156,8 @@ justify-content: center; /* Center content vertically */
 .checkbox-field input[type="checkbox"]:checked::after {
     content: '';
     position: absolute;
-    top: 2px;
-    left: 6px;
+    top: 4px;
+    left: 9px;
     width: 6px;
     height: 12px;
     border: solid #000;
