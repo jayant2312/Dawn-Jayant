@@ -133,6 +133,11 @@ justify-content: center; /* Center content vertically */
 .login-row .customer:not(.account):not(.order){
     max-width: 100%;
 }
+@media screen and (max-width: 991px) {
+    .login-row .customer:not(.account):not(.order){
+        max-width: 100%;
+        margin: 0px 30px;
+}
 @media screen and (max-width: 768px) {
     .login-row .customer:not(.account):not(.order){
         max-width: 100%;
@@ -140,9 +145,5 @@ justify-content: center; /* Center content vertically */
     }
 }
 
-@media screen and (max-width: 991px) {
-    .login-row .customer:not(.account):not(.order){
-        max-width: 100%;
-        margin: 0px 30px;
-}
+
 }
