@@ -90,22 +90,17 @@ a.btn-create-cta {
     display: none;
 }
 
-.login-button-block button:hover{
-    background: var(--Cobalt-grey, #53575A);
-    color: var(--White, var(--colours-bw-white, #FFF));
-}
 
-.full-height-row {
-    height: 100vh; /* Full viewport height */
+.login-row {
+    display: flex;
+    align-items: stretch; /* Ensure children stretch to the same height */
   }
   
   .login-right-box {
     border: 1px solid #ccc; /* Adjust border color as needed */
     padding: 20px; /* Adjust padding as needed */
     box-sizing: border-box;
-    height: 100%; /* Full height */
     display: flex;
     flex-direction: column;
     justify-content: center; /* Center content vertically */
   }
-  
