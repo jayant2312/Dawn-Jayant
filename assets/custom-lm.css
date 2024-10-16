@@ -124,3 +124,9 @@ justify-content: center; /* Center content vertically */
 .customer.reset-password.section-template--23748688609618__main-padding {
     padding: 50px 0px 50px 0px;
 }
+.customer.reset-password:not(.account):not(.order) {
+    max-width: max-content;
+}
+.h1{
+    text-transform: uppercase;
+}
