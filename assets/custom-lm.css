@@ -174,6 +174,7 @@ justify-content: center; /* Center content vertically */
 .contact.contact-form-box {
     margin: 0 120px;
     padding: 0px;
+    max-width: 100%;
 }
 .contact-sub-text {
     color: var(--Rich-Black, #000);
