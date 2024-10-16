@@ -142,7 +142,27 @@ justify-content: center; /* Center content vertically */
     margin-right: 10px;
     width: 20px;
     height: 20px;
-    accent-color: #000; /* This sets the checkbox color */
+    appearance: none; /* Remove default checkbox styling */
+    background-color: #fff;
+    border: 2px solid #000; /* Custom border */
+    border-radius: 4px; /* Optional: rounded corners */
+    position: relative;
+}
+
+.checkbox-field input[type="checkbox"]:checked {
+    background-color: #e8eaeb;
+}
+
+.checkbox-field input[type="checkbox"]:checked::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    width: 6px;
+    height: 12px;
+    border: solid #000;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
 }
 
 .checkbox-field label a {
@@ -153,7 +173,6 @@ justify-content: center; /* Center content vertically */
 .checkbox-field label a:hover {
     text-decoration: none;
 }
-
 /* Mobile to tab */
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .login-row .customer:not(.account):not(.order) {
