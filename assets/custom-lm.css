@@ -52,7 +52,7 @@
     align-self: stretch;
     margin: 24px 0px 32px 0px;
 }
-.login-button-block button {
+.login-row button {
     margin: 0px !important;
     display: inline-block;
     width: 100%;
@@ -113,4 +113,8 @@ justify-content: center; /* Center content vertically */
 
 .login-right-box .customer:not(.account):not(.order) {
     margin: 0 120px;
+}
+
+.login-right-box p {
+    text-align: left;
 }
