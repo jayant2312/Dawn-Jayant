@@ -11,13 +11,156 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "collapsible_content_nzXmqn": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_3HCeJd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ipsum dolor sit amet, consectetur adipiscing elit?",
+            "icon": "none",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CkHCTY": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ipsum dolor sit amet, consectetur adipiscing elit?",
+            "icon": "none",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Yzigmx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ipsum dolor sit amet, consectetur adipiscing elit?",
+            "icon": "none",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_DcyndA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ipsum dolor sit amet, consectetur adipiscing elit?",
+            "icon": "none",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_LLnKat": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ipsum dolor sit amet, consectetur adipiscing elit?",
+            "icon": "none",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YarXCK": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ipsum dolor sit amet, consectetur adipiscing elit?",
+            "icon": "none",
+            "row_content": "<p>Ipsum dolor sit amet, consectetur adipiscing elit Ipsum dolor sit amet, consectetur adipiscing elit Ipsum dolor sit amet, consectetur adipiscing elit?</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_n7Qbpg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ipsum dolor sit amet, consectetur adipiscing elit?",
+            "icon": "none",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_VjiABX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ipsum dolor sit amet, consectetur adipiscing elit?",
+            "icon": "none",
+            "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_QJYNMz": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ipsum dolor sit amet, consectetur adipiscing elit?",
+            "icon": "none",
+            "row_content": "<p>Ipsum dolor sit amet, consectetur adipiscing elit Ipsum dolor sit amet, consectetur adipiscing elit Ipsum dolor sit amet, consectetur adipiscing elit</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_pEftcc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ipsum dolor sit amet, consectetur adipiscing elit?",
+            "icon": "none",
+            "row_content": "<p>Ipsum dolor sit amet, consectetur adipiscing elit Ipsum dolor sit amet, consectetur adipiscing elit Ipsum dolor sit amet, consectetur adipiscing elit?</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fFgpQt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ipsum dolor sit amet, consectetur adipiscing elit?",
+            "icon": "none",
+            "row_content": "<p>Ipsum dolor sit amet, consectetur adipiscing elit Ipsum dolor sit amet, consectetur adipiscing elit Ipsum dolor sit amet, consectetur adipiscing elit?</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4nyg78": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ipsum dolor sit amet, consectetur adipiscing elit?",
+            "icon": "none",
+            "row_content": "<p>Ipsum dolor sit amet, consectetur adipiscing elit Ipsum dolor sit amet, consectetur adipiscing elit Ipsum dolor sit amet, consectetur adipiscing elit</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_3HCeJd",
+        "collapsible_row_CkHCTY",
+        "collapsible_row_Yzigmx",
+        "collapsible_row_DcyndA",
+        "collapsible_row_LLnKat",
+        "collapsible_row_YarXCK",
+        "collapsible_row_n7Qbpg",
+        "collapsible_row_VjiABX",
+        "collapsible_row_QJYNMz",
+        "collapsible_row_pEftcc",
+        "collapsible_row_fFgpQt",
+        "collapsible_row_4nyg78"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQ'S",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "collapsible_content_nzXmqn"
   ]
 }
