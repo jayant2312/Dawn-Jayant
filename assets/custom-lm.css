@@ -131,6 +131,29 @@ justify-content: center; /* Center content vertically */
 .login-row .customer:not(.account):not(.order) {
     max-width: 100%;
 }
+.checkbox-field {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #4B4B4B;
+}
+
+.checkbox-field input[type="checkbox"] {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    accent-color: #000; /* This sets the checkbox color */
+}
+
+.checkbox-field label a {
+    color: #4B4B4B;
+    text-decoration: underline;
+}
+
+.checkbox-field label a:hover {
+    text-decoration: none;
+}
+
 /* Mobile to tab */
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .login-row .customer:not(.account):not(.order) {
