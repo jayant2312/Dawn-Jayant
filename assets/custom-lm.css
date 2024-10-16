@@ -139,12 +139,28 @@ justify-content: center; /* Center content vertically */
         max-width: 100%;
         margin: 0px 30px;
     }
+    .login-button-block {
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        align-self: stretch;
+        margin: 24px 0 32px;
+        flex-direction: column;
+    }
 }
 
 @media screen and (max-width: 767px) {
     .login-row .customer:not(.account):not(.order) {
         max-width: 100%;
         margin: 32px 16px;
+    }
+    .login-button-block {
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+        align-self: stretch;
+        margin: 24px 0 32px;
+        flex-direction: column;
     }
 }
 
