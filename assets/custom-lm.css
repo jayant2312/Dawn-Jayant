@@ -89,11 +89,11 @@ a.btn-create-cta {
     line-height: normal
 }
 
-.login-row button:after, .login-row button::before {
+.login-row button:after, .login-row button:before {
     display: none;
 }
 
-.login-row button:hover{
+.login-row button:hover, .customer.reset-password button:hover{
     background: var(--Cobalt-grey, #53575A);
     color: var(--White, var(--colours-bw-white, #FFF));
 }
@@ -120,4 +120,7 @@ justify-content: center; /* Center content vertically */
 
 .login-right-box p {
     text-align: left;
+}
+.customer.reset-password.section-template--23748688609618__main-padding {
+    padding: 50px 0px 50px 0px;
 }
