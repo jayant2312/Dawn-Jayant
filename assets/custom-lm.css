@@ -7,9 +7,7 @@
 .login-row{
     background: var(--Cobalt-ligther, #E7EAEB);
 }
-h1{
-    font-family: "TAN - MON CHERI";
-}
+
 .customer:not(.account):not(.order){
     text-align: left;
     padding: 0px;
