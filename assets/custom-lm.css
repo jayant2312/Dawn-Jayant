@@ -108,17 +108,14 @@ a.btn-create-cta {
 border: 1px solid #000;
 background: var(--Cobalt-ligther, #E7EAEB);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
 box-sizing: border-box;
 display: flex;
 flex-direction: column;
 justify-content: center; /* Center content vertically */
 }
-
 .login-right-box .customer:not(.account):not(.order) {
     margin: 0 120px;
 }
-
 .login-right-box p {
     text-align: left;
 }
@@ -134,7 +131,7 @@ justify-content: center; /* Center content vertically */
 .login-row .customer:not(.account):not(.order) {
     max-width: 100%;
 }
-
+/* Mobile to tab */
 @media screen and (min-width: 768px) and (max-width: 991px) {
     .login-row .customer:not(.account):not(.order) {
         max-width: 100%;
@@ -149,7 +146,7 @@ justify-content: center; /* Center content vertically */
         flex-direction: column;
     }
 }
-
+/* Mobile screen */
 @media screen and (max-width: 767px) {
     .login-row .customer:not(.account):not(.order) {
         max-width: 100%;
