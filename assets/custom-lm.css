@@ -130,3 +130,9 @@ justify-content: center; /* Center content vertically */
 .h1{
     text-transform: uppercase;
 }
+@media screen and (max-width: 768px) {
+    .login-row .customer:not(.account):not(.order){
+        max-width: 100%;
+        margin: 32px 16px;
+    }
+}
