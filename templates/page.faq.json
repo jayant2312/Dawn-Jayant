@@ -50,7 +50,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Ipsum dolor sit amet, consectetur adipiscing elit?",
-            "category": "none",
+            "category": "orders",
             "icon": "none",
             "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>",
             "page": ""
@@ -60,7 +60,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Ipsum dolor sit amet, consectetur adipiscing elit?",
-            "category": "none",
+            "category": "product",
             "icon": "none",
             "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>",
             "page": ""
@@ -70,7 +70,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Ipsum dolor sit amet, consectetur adipiscing elit?",
-            "category": "none",
+            "category": "product",
             "icon": "none",
             "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>",
             "page": ""
@@ -80,7 +80,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Ipsum dolor sit amet, consectetur adipiscing elit?",
-            "category": "none",
+            "category": "shipping",
             "icon": "none",
             "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>",
             "page": ""
@@ -90,7 +90,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Ipsum dolor sit amet, consectetur adipiscing elit?",
-            "category": "none",
+            "category": "shipping",
             "icon": "none",
             "row_content": "<p>Ipsum dolor sit amet, consectetur adipiscing elit Ipsum dolor sit amet, consectetur adipiscing elit Ipsum dolor sit amet, consectetur adipiscing elit?</p>",
             "page": ""
@@ -100,7 +100,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Ipsum dolor sit amet, consectetur adipiscing elit?",
-            "category": "none",
+            "category": "returns",
             "icon": "none",
             "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>",
             "page": ""
@@ -110,7 +110,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Ipsum dolor sit amet, consectetur adipiscing elit?",
-            "category": "none",
+            "category": "returns",
             "icon": "none",
             "row_content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>",
             "page": ""
@@ -120,7 +120,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Ipsum dolor sit amet, consectetur adipiscing elit?",
-            "category": "none",
+            "category": "returns",
             "icon": "none",
             "row_content": "<p>Ipsum dolor sit amet, consectetur adipiscing elit Ipsum dolor sit amet, consectetur adipiscing elit Ipsum dolor sit amet, consectetur adipiscing elit</p>",
             "page": ""
@@ -130,7 +130,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Ipsum dolor sit amet, consectetur adipiscing elit?",
-            "category": "none",
+            "category": "returns",
             "icon": "none",
             "row_content": "<p>Ipsum dolor sit amet, consectetur adipiscing elit Ipsum dolor sit amet, consectetur adipiscing elit Ipsum dolor sit amet, consectetur adipiscing elit?</p>",
             "page": ""
@@ -140,7 +140,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Ipsum dolor sit amet, consectetur adipiscing elit?",
-            "category": "none",
+            "category": "fit",
             "icon": "none",
             "row_content": "<p>Ipsum dolor sit amet, consectetur adipiscing elit Ipsum dolor sit amet, consectetur adipiscing elit Ipsum dolor sit amet, consectetur adipiscing elit?</p>",
             "page": ""
@@ -150,7 +150,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Ipsum dolor sit amet, consectetur adipiscing elit?",
-            "category": "none",
+            "category": "fit",
             "icon": "none",
             "row_content": "<p>Ipsum dolor sit amet, consectetur adipiscing elit Ipsum dolor sit amet, consectetur adipiscing elit Ipsum dolor sit amet, consectetur adipiscing elit</p>",
             "page": ""
