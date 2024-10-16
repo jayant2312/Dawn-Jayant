@@ -94,3 +94,18 @@ a.btn-create-cta {
     background: var(--Cobalt-grey, #53575A);
     color: var(--White, var(--colours-bw-white, #FFF));
 }
+
+.full-height-row {
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .login-right-box {
+    border: 1px solid #ccc; /* Adjust border color as needed */
+    padding: 20px; /* Adjust padding as needed */
+    box-sizing: border-box;
+    height: 100%; /* Full height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+  }
+  
