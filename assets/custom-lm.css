@@ -283,7 +283,7 @@ button.faq-filter-button:hover {
     margin: 20px 155px;
 }
 .brand-image-section img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 .brand-page-section {
