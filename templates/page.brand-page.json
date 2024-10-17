@@ -33,23 +33,23 @@
         "show_text_below": true
       }
     },
-    "rich_text_ztHrXR": {
-      "type": "rich-text",
+    "new_rich_text_L3PkeT": {
+      "type": "new-rich-text",
       "blocks": {
-        "heading_38dHqE": {
+        "heading_wX8FVE": {
           "type": "heading",
           "settings": {
             "heading": "Brand story",
             "heading_size": "h1"
           }
         },
-        "text_HUkhp3": {
+        "text_YRFddG": {
           "type": "text",
           "settings": {
             "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>"
           }
         },
-        "text_9pWzMw": {
+        "text_bPPJDn": {
           "type": "text",
           "settings": {
             "text": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>"
@@ -57,60 +57,61 @@
         }
       },
       "block_order": [
-        "heading_38dHqE",
-        "text_HUkhp3",
-        "text_9pWzMw"
+        "heading_wX8FVE",
+        "text_YRFddG",
+        "text_bPPJDn"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": false,
+        "color_scheme": "",
+        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
     },
-    "slideshow_JAHUh8": {
-      "type": "slideshow",
+    "new_rich_text_6iTUMU": {
+      "type": "new-rich-text",
       "blocks": {
-        "slide_xp9y9k": {
-          "type": "slide",
+        "heading_hjYQCK": {
+          "type": "heading",
           "settings": {
-            "image": "shopify://shop_images/image_7.png",
-            "heading": "",
-            "heading_size": "h0",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
+            "heading": "About Pippa",
+            "heading_size": "h1"
+          }
+        },
+        "text_EDt3U6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>"
+          }
+        },
+        "text_gaEMGC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>"
           }
         }
       },
       "block_order": [
-        "slide_xp9y9k"
+        "heading_hjYQCK",
+        "text_EDt3U6",
+        "text_gaEMGC"
       ],
       "settings": {
-        "layout": "grid",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
     "main",
     "image_banner_mqfDbz",
-    "rich_text_ztHrXR",
-    "slideshow_JAHUh8"
+    "new_rich_text_L3PkeT",
+    "new_rich_text_6iTUMU"
   ]
 }
