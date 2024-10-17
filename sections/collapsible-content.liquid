@@ -55,14 +55,20 @@
         
  
         <div class="filter-container">
-          <label for="category-filter">Filter by Category:</label>
-          <select id="category-filter">
+          <label for="category-filter" class="filter-label">Filter by Category:</label>
+          <div class="filter-desktop">
+            {%- for category in unique_categories_array -%}
+              <button class="filter-button" data-category="{{ category }}">{{ category }}</button>
+            {%- endfor -%}
+          </div>
+          <select id="category-filter" class="filter-mobile">
             <option value="all">All</option>
             {%- for category in unique_categories_array -%}
               <option value="{{ category }}">{{ category }}</option>
             {%- endfor -%}
           </select>
         </div>
+        
         
          <!--end custom filter -->
         <div class="grid grid--1-col grid--2-col-tablet collapsible-content__grid{% if section.settings.desktop_layout == 'image_second' %} collapsible-content__grid--reverse{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
@@ -584,23 +590,35 @@
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const filterSelect = document.getElementById('category-filter');
-    const gridItems = document.querySelectorAll('.grid__item .accordion'); // Selectors adjusted
-  
-    filterSelect.addEventListener('change', function() {
-      const selectedCategory = this.value;
-      console.log("Selected Category:", selectedCategory); // Debugging log
+    const gridItems = document.querySelectorAll('.grid__item .accordion'); // Ensure this targets the right elements
+    
+    // Function to filter items
+    function filterItems(selectedCategory) {
       gridItems.forEach(item => {
         const category = item.getAttribute('data-category'); // Get data-category
-        console.log("Current Item Category:", category); // Debugging log
-  
-        // Compare selected category with item's category
         if (selectedCategory === 'all' || category === selectedCategory) {
           item.style.display = 'block';
         } else {
           item.style.display = 'none';
         }
       });
+    }
+  
+    // Dropdown change event
+    filterSelect.addEventListener('change', function() {
+      const selectedCategory = this.value;
+      filterItems(selectedCategory); // Call the filter function
+    });
+  
+    // Button click event for desktop
+    const filterButtons = document.querySelectorAll('.filter-button');
+    filterButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        const selectedCategory = this.getAttribute('data-category'); // Get category from button
+        filterItems(selectedCategory); // Call the filter function
+      });
     });
   });
   </script>
+  
   

@@ -212,6 +212,30 @@ justify-content: center; /* Center content vertically */
         flex-direction: column;
     }
 }
+
+.filter-desktop {
+    display: flex;
+    flex-wrap: wrap; /* Allows buttons to wrap */
+  }
+  
+  .filter-button {
+    margin: 5px; /* Add some spacing between buttons */
+    padding: 10px 15px; /* Add padding for better touch target */
+    background-color: #007bff; /* Example button color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    cursor: pointer; /* Pointer cursor for buttons */
+  }
+  
+  .filter-mobile {
+    display: none; /* Hide dropdown by default */
+  }
+
+
+
+
+
+
 /* Mobile screen */
 @media screen and (max-width: 767px) {
     .login-row .customer:not(.account):not(.order) , .contact.contact-form-box {
