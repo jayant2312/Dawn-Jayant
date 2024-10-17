@@ -56,7 +56,7 @@
  
         <div class="faq-filter-container">
           <div class="faq-filter-desktop">
-            <button class="faq-filter-button" data-category="all">All</button>
+            <button class="faq-filter-button selected" data-category="all">All</button>
             {%- for category in unique_categories_array -%}
               <button class="faq-filter-button" data-category="{{ category }}">{{ category }}</button>
             {%- endfor -%}
