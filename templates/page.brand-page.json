@@ -149,15 +149,16 @@
           "type": "left_block",
           "settings": {
             "left_image": "shopify://shop_images/image_10.png",
-            "left_title": "",
-            "left_content": ""
+            "left_title": "left title",
+            "left_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
           }
         },
         "right_block_iEAaMg": {
           "type": "right_block",
           "settings": {
-            "right_title": "",
-            "right_content": ""
+            "right_image": "shopify://shop_images/image_9.png",
+            "right_title": "Title H2",
+            "right_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
           }
         }
       },
