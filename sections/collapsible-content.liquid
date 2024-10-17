@@ -41,7 +41,7 @@
         {% assign unique_categories = "" | split: "" %}
        
         {%- for block in section.blocks -%}
-          {{ block }}
+          {{ block.settings.category }}
           {% unless unique_categories contains block.settings.category %}
             {% assign unique_categories = unique_categories | push: section.settings.category %}
           {% endunless %}
