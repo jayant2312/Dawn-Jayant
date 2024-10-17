@@ -267,3 +267,11 @@ button.faq-filter-button:hover {
 .faq-accordion-grid .accordion details[open]>summary .icon-plus line:first-child {
     display: none;
 }
+.faq-accordion-grid .accordion__content p {
+    color: var(--Rich-Black, #000);
+    font-family: 'rival-sans';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.39px;
+}
