@@ -59,6 +59,7 @@
         letter-spacing: 0.42px;
         font-family: 'rival-sans';
         border: 1px solid var(--Rich-Black, #000);
+        margin-bottom: 8px;
     }
     .faq-filter-desktop{
         display: none;
