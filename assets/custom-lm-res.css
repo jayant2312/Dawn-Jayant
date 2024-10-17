@@ -23,6 +23,11 @@
         text-align: center;
         margin: 20px 60px;
     }
+    .brand-page-rich-text-section {
+        width: 100%;
+        max-width: 675px;
+        margin: 0 auto;
+    }
 }
 
 /* Mobile screen */
@@ -77,6 +82,11 @@
     .brand-image-section {
         text-align: center;
         margin: 20px 16px;
+    }
+    .brand-page-rich-text-section {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
     }
     
 }
