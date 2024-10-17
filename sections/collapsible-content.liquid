@@ -43,11 +43,13 @@
         {%- for block in section.blocks -%}
           {{ block.settings.category }}
           {% unless unique_categories contains block.settings.category %}
-            unique_categories
+            unique_categories1
             {{ unique_categories }}
             {% assign unique_categories = unique_categories | push: block.settings.category %}
           {% endunless %}
         {%- endfor -%}
+        unique_categories2
+        {{ unique_categories }}
         <div class="filter-container">
           <label for="category-filter">Filter by Category: 1ed</label>
           <select id="category-filter">
