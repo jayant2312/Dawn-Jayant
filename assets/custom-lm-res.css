@@ -14,10 +14,10 @@
         flex-direction: column;
     }
     .faq-filter-mobile{
-        display: block;
+        display: none;
     }
     .faq-filter-desktop{
-        display: none;
+        display: block;
     }
 }
 
@@ -51,6 +51,14 @@
     }
     .faq-filter-mobile{
         display: block;
+        width: 100%;
+        padding: 12px 16px;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0.42px;
+        font-family: 'rival-sans';
+        border: 1px solid var(--Rich-Black, #000);
     }
     .faq-filter-desktop{
         display: none;
