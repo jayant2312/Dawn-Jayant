@@ -139,6 +139,35 @@
       ],
       "settings": {
         "background_color": "#f3f3f3",
+        "full_width": true
+      }
+    },
+    "two_column_image_text_section_4whFzW": {
+      "type": "two-column-image-text-section",
+      "blocks": {
+        "left_block_tttWe4": {
+          "type": "left_block",
+          "settings": {
+            "left_image": "shopify://shop_images/image_10.png",
+            "left_title": "left title",
+            "left_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          }
+        },
+        "right_block_iEAaMg": {
+          "type": "right_block",
+          "settings": {
+            "right_image": "shopify://shop_images/image_9.png",
+            "right_title": "Title H2",
+            "right_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          }
+        }
+      },
+      "block_order": [
+        "left_block_tttWe4",
+        "right_block_iEAaMg"
+      ],
+      "settings": {
+        "background_color": "",
         "full_width": false
       }
     }
@@ -149,6 +178,7 @@
     "new_rich_text_L3PkeT",
     "brand_single_img_tqEwUP",
     "new_rich_text_6iTUMU",
-    "two_column_image_text_section_UxTVqP"
+    "two_column_image_text_section_UxTVqP",
+    "two_column_image_text_section_4whFzW"
   ]
 }
