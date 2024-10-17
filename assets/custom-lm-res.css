@@ -23,7 +23,9 @@
         text-align: center;
         margin: 20px 60px;
     }
-   
+    .two-column-section.brand-small-width {
+        padding: 80px 60px;
+    }
     .brand-page-rich-text-section {
         width: 100%;
         max-width: 675px;
@@ -90,6 +92,15 @@
         max-width: 100%;
         margin: 0 auto;
         padding: 0px;
+    }
+    .two-column-section.brand-full-width {
+        padding: 64px 16px;
+    }
+    .two-column-section.brand-small-width {
+        padding: 64px 16px;
+    }
+    .brand-left-block {
+        padding-bottom: 40px;
     }
     
 }
