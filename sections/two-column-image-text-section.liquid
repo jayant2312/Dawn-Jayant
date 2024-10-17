@@ -1,22 +1,26 @@
-<div class="brand-two-column-section{% if section.settings.full_width %} brand-full-width{% endif %}" style="background-color: {{ section.settings.background_color }};">
-      <div class="row">
+<div class="two-column-section{% if section.settings.full_width %} full-width{% endif %}" style="background-color: {{ section.settings.background_color }};">
+    <div class="row">
+    {%- for block in section.blocks -%}
+        {%- if block.type == 'left_block' -%}
         <div class="col-md-6">
-          {%- if block.settings.left_image != blank -%}
+            {%- if block.settings.left_image != blank -%}
             <img src="{{ block.settings.left_image | image_url: width: 800 }}" alt="{{ block.settings.left_title }}">
-          {%- endif -%}
-          <h2>{{ block.settings.left_title }}</h2>
-          <p>{{ block.settings.left_content }}</p>
+            {%- endif -%}
+            <h2>{{ block.settings.left_title }}</h2>
+            <p>{{ block.settings.left_content }}</p>
         </div>
+        {%- elsif block.type == 'right_block' -%}
         <div class="col-md-6">
-          {%- if block.settings.right_image != blank -%}
+            {%- if block.settings.right_image != blank -%}
             <img src="{{ block.settings.right_image | image_url: width: 800 }}" alt="{{ block.settings.right_title }}">
-          {%- endif -%}
-          <h2>{{ block.settings.right_title }}</h2>
-          <p>{{ block.settings.right_content }}</p>
+            {%- endif -%}
+            <h2>{{ block.settings.right_title }}</h2>
+            <p>{{ block.settings.right_content }}</p>
         </div>
-      </div>
-</div>
-  
+        {%- endif -%}
+    {%- endfor -%}
+    </div>
+  </div>
  
   
 {% schema %}
