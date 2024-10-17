@@ -45,7 +45,7 @@
           {% unless unique_categories contains block.settings.category %}
             unique_categories
             {{ unique_categories }}
-            {% assign unique_categories = unique_categories | push: section.settings.category %}
+            {% assign unique_categories = unique_categories | push: block.settings.category %}
           {% endunless %}
         {%- endfor -%}
         <div class="filter-container">
