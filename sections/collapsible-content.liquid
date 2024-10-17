@@ -56,7 +56,9 @@
  
         <div class="filter-container">
           <label for="category-filter" class="filter-label">Filter by Category:</label>
+          
           <div class="filter-desktop">
+            <button class="filter-button" data-category="all">All</button>
             {%- for category in unique_categories_array -%}
               <button class="filter-button" data-category="{{ category }}">{{ category }}</button>
             {%- endfor -%}
@@ -68,6 +70,7 @@
             {%- endfor -%}
           </select>
         </div>
+        
         
         
          <!--end custom filter -->
@@ -597,9 +600,9 @@
       gridItems.forEach(item => {
         const category = item.getAttribute('data-category'); // Get data-category
         if (selectedCategory === 'all' || category === selectedCategory) {
-          item.style.display = 'block';
+          item.style.display = 'block'; // Show item
         } else {
-          item.style.display = 'none';
+          item.style.display = 'none'; // Hide item
         }
       });
     }
@@ -615,10 +618,10 @@
     filterButtons.forEach(button => {
       button.addEventListener('click', function() {
         const selectedCategory = this.getAttribute('data-category'); // Get category from button
+        filterSelect.value = selectedCategory; // Update dropdown value for consistency
         filterItems(selectedCategory); // Call the filter function
       });
     });
   });
   </script>
-  
   
