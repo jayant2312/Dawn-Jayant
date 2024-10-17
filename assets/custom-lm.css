@@ -258,3 +258,15 @@ button.faq-filter-button:hover {
 .collapsible-content summary:hover {
     background: none !important;
 }
+.faq-accordion-grid .collapsible-content summary .icon-plus {
+    position: absolute;
+    height: 16px;
+    right: 1.5rem;
+    top: calc(50% - .3rem);
+}
+.faq-accordion-grid .accordion details[open]>summary .icon-plus line:first-child {
+    display: none;
+}
+.faq-accordion-grid .accordion details[open]>summary .icon-plus line {
+    transform: rotate(180deg);
+}
