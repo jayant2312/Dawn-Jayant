@@ -36,6 +36,24 @@
             <h2 class="visually-hidden">{{ 'accessibility.collapsible_content_title' | t }}</h2>
           {% endif %}
         </div>
+        <!--custom filter -->
+        {% assign unique_categories = "" | split: "" %}
+        {%- for block in section.blocks -%}
+          {% unless unique_categories contains block.settings.category %}
+            {% assign unique_categories = unique_categories | push: block.settings.category %}
+          {% endunless %}
+        {%- endfor -%}
+        <div class="filter-container">
+          <label for="category-filter">Filter by Category:</label>
+          <select id="category-filter">
+            <option value="all">All</option>
+            {%- for category in unique_categories -%}
+              <option value="{{ category }}">{{ category }}</option>
+            {%- endfor -%}
+          </select>
+        </div>
+        
+         <!--end custom filter -->
         <div class="grid grid--1-col grid--2-col-tablet collapsible-content__grid{% if section.settings.desktop_layout == 'image_second' %} collapsible-content__grid--reverse{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
           {%- if section.settings.image != blank -%}
             <div class="grid__item collapsible-content__grid-item">
