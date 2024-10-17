@@ -43,6 +43,8 @@
         {%- for block in section.blocks -%}
           {{ block.settings.category }}
           {% unless unique_categories contains block.settings.category %}
+            unique_categories
+            {{ unique_categories }}
             {% assign unique_categories = unique_categories | push: section.settings.category %}
           {% endunless %}
         {%- endfor -%}
