@@ -106,12 +106,19 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "brand_single_img_tqEwUP": {
+      "type": "brand-single-img",
+      "settings": {
+        "image": "shopify://shop_images/image_8.png"
+      }
     }
   },
   "order": [
     "main",
     "image_banner_mqfDbz",
     "new_rich_text_L3PkeT",
+    "brand_single_img_tqEwUP",
     "new_rich_text_6iTUMU"
   ]
 }
