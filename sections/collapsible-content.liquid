@@ -54,16 +54,14 @@
         {% assign unique_categories_array = unique_categories | split: ',' | uniq %}
         
  
-        <div class="filter-container">
-          <label for="category-filter" class="filter-label">Filter by Category:</label>
-          
-          <div class="filter-desktop">
-            <button class="filter-button" data-category="all">All</button>
+        <div class="faq-filter-container">
+          <div class="faq-filter-desktop">
+            <button class="faq-filter-button" data-category="all">All</button>
             {%- for category in unique_categories_array -%}
-              <button class="filter-button" data-category="{{ category }}">{{ category }}</button>
+              <button class="faq-filter-button" data-category="{{ category }}">{{ category }}</button>
             {%- endfor -%}
           </div>
-          <select id="category-filter" class="filter-mobile">
+          <select id="faq-category-filter" class="filter-mobile">
             <option value="all">All</option>
             {%- for category in unique_categories_array -%}
               <option value="{{ category }}">{{ category }}</option>
@@ -592,7 +590,7 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    const filterSelect = document.getElementById('category-filter');
+    const filterSelect = document.getElementById('faq-category-filter');
     const gridItems = document.querySelectorAll('.grid__item .accordion'); // Ensure this targets the right elements
   
     // Function to filter items
@@ -609,7 +607,7 @@
   
     // Function to update selected class for buttons
     function updateSelectedButton(selectedCategory) {
-      const filterButtons = document.querySelectorAll('.filter-button');
+      const filterButtons = document.querySelectorAll('.faq-filter-button');
   
       // Remove selected class from all buttons
       filterButtons.forEach(button => {
@@ -617,7 +615,7 @@
       });
   
       // Add selected class to the currently selected button
-      const selectedButton = document.querySelector(`.filter-button[data-category="${selectedCategory}"]`);
+      const selectedButton = document.querySelector(`.faq-filter-button[data-category="${selectedCategory}"]`);
       if (selectedButton) {
         selectedButton.classList.add('selected');
       }
@@ -641,7 +639,7 @@
     });
   
     // Button click event for desktop
-    const filterButtons = document.querySelectorAll('.filter-button');
+    const filterButtons = document.querySelectorAll('.faq-filter-button');
     filterButtons.forEach(button => {
       button.addEventListener('click', function() {
         const selectedCategory = this.getAttribute('data-category'); // Get category from button
