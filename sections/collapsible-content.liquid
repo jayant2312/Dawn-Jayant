@@ -39,7 +39,7 @@
         <!--custom filter -->
         {% assign unique_categories = "" | split: "" %}
         {{ block.settings.category }}
-        {%- for block in section.blocks -%}
+        {%- for block in block.settings.category -%}
           {% unless unique_categories contains block.settings.category %}
             {% assign unique_categories = unique_categories | push: block.settings.category %}
           {% endunless %}
