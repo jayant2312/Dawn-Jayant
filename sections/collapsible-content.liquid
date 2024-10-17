@@ -588,7 +588,7 @@
   
     filterSelect.addEventListener('change', function() {
       const selectedCategory = this.value;
-  
+      console.log(selectedCategory);
       gridItems.forEach(item => {
         if (selectedCategory === 'all' || item.getAttribute('data-category') === selectedCategory) {
           item.style.display = 'block';
