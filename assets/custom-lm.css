@@ -203,18 +203,33 @@ justify-content: center; /* Center content vertically */
 /* FAQ Page */
 .faq-filter-desktop {
     display: flex;
-    flex-wrap: wrap; /* Allows buttons to wrap */
-  }
-  
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 16px 0px;
+}
+button.faq-filter-button:hover {
+    background: #000;
+    color: #fff;
+}
+.faq-filter-button.selected {
+    background: #000;
+    color: #fff;
+}  
 .faq-filter-button {
-    margin: 5px; /* Add some spacing between buttons */
-    padding: 10px 15px; /* Add padding for better touch target */
-    background-color: #007bff; /* Example button color */
-    color: white; /* Text color */
-    border: none; /* Remove default border */
-    cursor: pointer; /* Pointer cursor for buttons */
-  }
-  
+    border: 1px solid var(--Rich-Black, #000);
+    background: transparent;
+    color: #000;
+    text-transform: capitalize;
+    padding: 4px 12px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.39px;
+    font-family: 'rival-sans';
+    margin: 0px;
+}
 .faq-filter-mobile {
     display: none; /* Hide dropdown by default */
 }
