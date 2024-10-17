@@ -1,0 +1,88 @@
+<div class="brand-two-column-section{% if section.settings.full_width %} brand-full-width{% endif %}" style="background-color: {{ section.settings.background_color }};">
+      <div class="row">
+        <div class="col-md-6">
+          {%- if block.settings.left_image != blank -%}
+            <img src="{{ block.settings.left_image | image_url: width: 800 }}" alt="{{ block.settings.left_title }}">
+          {%- endif -%}
+          <h2>{{ block.settings.left_title }}</h2>
+          <p>{{ block.settings.left_content }}</p>
+        </div>
+        <div class="col-md-6">
+          {%- if block.settings.right_image != blank -%}
+            <img src="{{ block.settings.right_image | image_url: width: 800 }}" alt="{{ block.settings.right_title }}">
+          {%- endif -%}
+          <h2>{{ block.settings.right_title }}</h2>
+          <p>{{ block.settings.right_content }}</p>
+        </div>
+      </div>
+</div>
+  
+ 
+  
+{% schema %}
+{
+  "name": "Two Column Image-Text Section",
+  "settings": [
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full Width"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "left_block",
+      "name": "Left Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "left_image",
+          "label": "Left Image"
+        },
+        {
+          "type": "text",
+          "id": "left_title",
+          "label": "Left Title"
+        },
+        {
+          "type": "textarea",
+          "id": "left_content",
+          "label": "Left Content"
+        }
+      ]
+    },
+    {
+      "type": "right_block",
+      "name": "Right Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "right_image",
+          "label": "Right Image"
+        },
+        {
+          "type": "text",
+          "id": "right_title",
+          "label": "Right Title"
+        },
+        {
+          "type": "textarea",
+          "id": "right_content",
+          "label": "Right Content"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Two Column Image-Text Section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
