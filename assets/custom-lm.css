@@ -252,10 +252,10 @@ button.faq-filter-button:hover {
     font-weight: 400;
     letter-spacing: 0.48px;
 }
-.collapsible-content summary:hover .accordion__title {
-    text-decoration: none;
+.faq-accordion-grid .collapsible-content summary:hover .accordion__title {
+    text-decoration: none !important;
 }
-.collapsible-content summary:hover {
-    background: none;
-    text-decoration: none;
+.faq-accordion-grid .collapsible-content summary:hover {
+    background: none !important;
+
 }
