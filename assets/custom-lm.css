@@ -256,7 +256,6 @@ button.faq-filter-button:hover {
     text-decoration: none;
 }
 .faq-accordion-grid .collapsible-content summary:hover {
-    background: rgba(var(--color-foreground), .04);
     background: none;
     text-decoration: none;
 }
