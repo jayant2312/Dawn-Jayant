@@ -32,10 +32,48 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "rich_text_ztHrXR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_38dHqE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Brand story",
+            "heading_size": "h1"
+          }
+        },
+        "text_HUkhp3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>"
+          }
+        },
+        "text_9pWzMw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_38dHqE",
+        "text_HUkhp3",
+        "text_9pWzMw"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "image_banner_mqfDbz"
+    "image_banner_mqfDbz",
+    "rich_text_ztHrXR"
   ]
 }
