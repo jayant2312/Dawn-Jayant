@@ -61,7 +61,7 @@
               <button class="faq-filter-button" data-category="{{ category }}">{{ category }}</button>
             {%- endfor -%}
           </div>
-          <select id="faq-category-filter" class="filter-mobile">
+          <select id="faq-category-filter" class="faq-filter-mobile">
             <option value="all">All</option>
             {%- for category in unique_categories_array -%}
               <option value="{{ category }}">{{ category }}</option>
