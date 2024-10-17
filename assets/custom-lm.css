@@ -299,3 +299,11 @@ button.faq-filter-button:hover {
 .brand-right-block, .brand-left-block {
     padding-left: 4px;
 }
+.two-column-section.brand-full-width .brand-box-content {
+    text-align: center;
+    padding: 24px 24px 0px 24px;
+}
+.two-column-section img {
+    width: 100%;
+    height: auto;
+}
