@@ -1,0 +1,39 @@
+<div class="simple-image-section">
+  {%- if section.settings.image != blank -%}
+    <img src="{{ section.settings.image | image_url: width: 800 }}" alt="Simple Image Section" />
+  {%- else -%}
+    <p>No image selected</p>
+  {%- endif -%}
+</div>
+
+<style>
+  .simple-image-section {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .simple-image-section img {
+    max-width: 100%;
+    height: auto;
+  }
+</style>
+
+
+{% schema %}
+{
+  "name": "Simple Image Section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Simple Image Section",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
