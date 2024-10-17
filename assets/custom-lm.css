@@ -275,3 +275,14 @@ button.faq-filter-button:hover {
     font-weight: 300;
     letter-spacing: 0.39px;
 }
+
+/* Brand Page */
+
+.brand-image-section {
+    text-align: center;
+    margin: 20px 155px;
+}
+.brand-image-section img {
+    max-width: 100%;
+    height: auto;
+}

@@ -19,6 +19,10 @@
     .faq-filter-desktop{
         display: flex;
     }
+    .brand-image-section {
+        text-align: center;
+        margin: 20px 60px;
+    }
 }
 
 /* Mobile screen */
@@ -69,6 +73,10 @@
     }
     .faq-accordion-grid .accordion__title {
         font-size: 14px;
+    }
+    .brand-image-section {
+        text-align: center;
+        margin: 20px 0px;
     }
     
 }
