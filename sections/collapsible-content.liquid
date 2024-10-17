@@ -38,23 +38,27 @@
         </div>
         
         <!--custom filter -->
-        {% assign unique_categories = "" | split: "" %}
+        {% assign unique_categories = '' %}
        
         {%- for block in section.blocks -%}
-          {{ block.settings.category }}
-          {% unless unique_categories contains block.settings.category %}
-            unique_categories1
-            {{ unique_categories }}
-            {% assign unique_categories = unique_categories | push: block.settings.category %}
-          {% endunless %}
+          {% if block.settings.category != blank %}
+            {% unless unique_categories contains block.settings.category %}
+              {% if unique_categories != '' %}
+                {% assign unique_categories = unique_categories | append: ',' %}
+              {% endif %}
+              {% assign unique_categories = unique_categories | append: block.settings.category %}
+            {% endunless %}
+          {% endif %}
         {%- endfor -%}
-        unique_categories2
-        {{ unique_categories }}
+        
+        {% assign unique_categories_array = unique_categories | split: ',' | uniq %}
+        
+ 
         <div class="filter-container">
-          <label for="category-filter">Filter by Category: 1ed</label>
+          <label for="category-filter">Filter by Category:</label>
           <select id="category-filter">
             <option value="all">All</option>
-            {%- for category in unique_categories -%}
+            {%- for category in unique_categories_array -%}
               <option value="{{ category }}">{{ category }}</option>
             {%- endfor -%}
           </select>
