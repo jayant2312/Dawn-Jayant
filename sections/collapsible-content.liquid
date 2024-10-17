@@ -579,3 +579,23 @@
   ]
 }
 {% endschema %}
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const filterSelect = document.getElementById('category-filter');
+    const gridItems = document.querySelectorAll('.grid-item');
+  
+    filterSelect.addEventListener('change', function() {
+      const selectedCategory = this.value;
+  
+      gridItems.forEach(item => {
+        if (selectedCategory === 'all' || item.getAttribute('data-category') === selectedCategory) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
+  });
+  </script>
