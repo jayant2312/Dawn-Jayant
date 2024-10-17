@@ -112,6 +112,35 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "two_column_image_text_section_UxTVqP": {
+      "type": "two-column-image-text-section",
+      "blocks": {
+        "left_block_LP86ia": {
+          "type": "left_block",
+          "settings": {
+            "left_image": "shopify://shop_images/image_9.png",
+            "left_title": "Title H2",
+            "left_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          }
+        },
+        "right_block_AfNJm7": {
+          "type": "right_block",
+          "settings": {
+            "right_image": "shopify://shop_images/image_10.png",
+            "right_title": "Right Title",
+            "right_content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          }
+        }
+      },
+      "block_order": [
+        "left_block_LP86ia",
+        "right_block_AfNJm7"
+      ],
+      "settings": {
+        "background_color": "#f3f3f3",
+        "full_width": false
+      }
     }
   },
   "order": [
@@ -119,6 +148,7 @@
     "image_banner_mqfDbz",
     "new_rich_text_L3PkeT",
     "brand_single_img_tqEwUP",
-    "new_rich_text_6iTUMU"
+    "new_rich_text_6iTUMU",
+    "two_column_image_text_section_UxTVqP"
   ]
 }
