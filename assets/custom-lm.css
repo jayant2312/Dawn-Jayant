@@ -207,7 +207,7 @@ justify-content: center; /* Center content vertically */
     justify-content: center;
     align-items: center;
     gap: 16px;
-    margin: 16px 0px;
+    margin: 16px 0px 24px 0px;
 }
 button.faq-filter-button:hover {
     background: #000;
