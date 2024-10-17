@@ -290,4 +290,5 @@ button.faq-filter-button:hover {
     width: 100%;
     max-width: 675px;
     margin: 0 auto;
+    padding: 0px;
 }
