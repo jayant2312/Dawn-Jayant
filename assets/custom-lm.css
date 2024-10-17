@@ -326,3 +326,9 @@ button.faq-filter-button:hover {
     line-height: 140%;
     letter-spacing: 0.45px;
 }
+.two-column-section.brand-small-width .brand-box-content {
+    padding: 24px 24px 0px 24px;
+}
+.two-column-section.brand-small-width {
+    padding: 80px 155px;
+}
