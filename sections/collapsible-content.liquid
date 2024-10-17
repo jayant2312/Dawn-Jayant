@@ -117,7 +117,11 @@
                   {% endif %}
                 >
                   <summary id="Summary-{{ block.id }}-{{ section.id }}">
-                    {% render 'icon-accordion', icon: block.settings.icon %}
+                    {% comment %}{% render 'icon-accordion', icon: block.settings.icon %}{% endcomment %}
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                      <line x1="7.8668" y1="1.74846e-08" x2="7.8668" y2="16" stroke="black" stroke-width="0.8"/>
+                      <line x1="16" y1="7.86667" x2="-3.49691e-08" y2="7.86667" stroke="black" stroke-width="0.8"/>
+                    </svg>
                     <h3 class="accordion__title inline-richtext h4">
                       {{ block.settings.heading | default: block.settings.page.title | escape }}
                     </h3>
