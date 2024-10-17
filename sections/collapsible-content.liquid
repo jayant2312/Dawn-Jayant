@@ -594,7 +594,7 @@
   document.addEventListener("DOMContentLoaded", function() {
     const filterSelect = document.getElementById('category-filter');
     const gridItems = document.querySelectorAll('.grid__item .accordion'); // Ensure this targets the right elements
-    
+  
     // Function to filter items
     function filterItems(selectedCategory) {
       gridItems.forEach(item => {
@@ -607,10 +607,37 @@
       });
     }
   
+    // Function to update selected class for buttons
+    function updateSelectedButton(selectedCategory) {
+      const filterButtons = document.querySelectorAll('.filter-button');
+  
+      // Remove selected class from all buttons
+      filterButtons.forEach(button => {
+        button.classList.remove('selected');
+      });
+  
+      // Add selected class to the currently selected button
+      const selectedButton = document.querySelector(`.filter-button[data-category="${selectedCategory}"]`);
+      if (selectedButton) {
+        selectedButton.classList.add('selected');
+      }
+    }
+  
+    // Function to update selected class for dropdown
+    function updateSelectedDropdown(selectedCategory) {
+      const options = filterSelect.options;
+      
+      // Loop through options to set the selected attribute
+      for (let i = 0; i < options.length; i++) {
+        options[i].selected = (options[i].value === selectedCategory);
+      }
+    }
+  
     // Dropdown change event
     filterSelect.addEventListener('change', function() {
       const selectedCategory = this.value;
       filterItems(selectedCategory); // Call the filter function
+      updateSelectedButton(selectedCategory); // Update selected class for buttons
     });
   
     // Button click event for desktop
@@ -620,6 +647,8 @@
         const selectedCategory = this.getAttribute('data-category'); // Get category from button
         filterSelect.value = selectedCategory; // Update dropdown value for consistency
         filterItems(selectedCategory); // Call the filter function
+        updateSelectedButton(selectedCategory); // Update selected class for buttons
+        updateSelectedDropdown(selectedCategory); // Update selected attribute for dropdown
       });
     });
   });
