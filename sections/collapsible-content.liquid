@@ -36,14 +36,14 @@
             <h2 class="visually-hidden">{{ 'accessibility.collapsible_content_title' | t }}</h2>
           {% endif %}
         </div>
-        {{ section.settings.category }}
+        
         <!--custom filter -->
         {% assign unique_categories = "" | split: "" %}
        
-        {%- for block in block.settings.category -%}
+        {%- for block in section.settings.category -%}
           
-          {% unless unique_categories contains block.settings.category %}
-            {% assign unique_categories = unique_categories | push: block.settings.category %}
+          {% unless unique_categories contains section.settings.category %}
+            {% assign unique_categories = unique_categories | push: section.settings.category %}
           {% endunless %}
         {%- endfor -%}
         <div class="filter-container">
