@@ -270,7 +270,7 @@ button.faq-filter-button:hover {
 .faq-accordion-grid .accordion__content p {
     color: var(--Rich-Black, #000);
     font-family: 'rival-sans';
-    font-size: 13px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 300;
     letter-spacing: 0.39px;
