@@ -295,3 +295,7 @@ button.faq-filter-button:hover {
 .two-column-section.brand-full-width {
     padding: 80px 40px;
 }
+
+.brand-right-block, .brand-left-block {
+    padding-left: 4px;
+}

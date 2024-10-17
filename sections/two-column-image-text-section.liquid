@@ -2,7 +2,7 @@
     <div class="row">
     {%- for block in section.blocks -%}
         {%- if block.type == 'left_block' -%}
-        <div class="col-md-6 brand-left-block p-0">
+        <div class="col-md-6 brand-left-block">
             {%- if block.settings.left_image != blank -%}
             <img src="{{ block.settings.left_image | image_url: width: 800 }}" alt="{{ block.settings.left_title }}">
             {%- endif -%}
@@ -12,7 +12,7 @@
             </div>    
         </div>
         {%- elsif block.type == 'right_block' -%}
-        <div class="col-md-6 brand-right-block p-0">
+        <div class="col-md-6 brand-right-block">
             {%- if block.settings.right_image != blank -%}
             <img src="{{ block.settings.right_image | image_url: width: 800 }}" alt="{{ block.settings.right_title }}">
             {%- endif -%}
