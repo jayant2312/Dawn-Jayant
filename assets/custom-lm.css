@@ -309,7 +309,6 @@ button.faq-filter-button:hover {
 }
 .brand-box-content h3 {
     color: var(--Rich-Black, #000);
-    text-align: center;
     font-family: 'rival-sans';
     font-size: 22px;
     font-style: normal;
@@ -320,7 +319,6 @@ button.faq-filter-button:hover {
 }
 .brand-box-content p {
     color: var(--Rich-Black, #000);
-    text-align: center;
     font-family: 'rival-sans';
     font-size: 15px;
     font-style: normal;
