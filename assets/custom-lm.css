@@ -241,3 +241,22 @@ button.faq-filter-button:hover {
 .faq-accordion-grid .accordion summary {
     padding: 0px;
 }
+.faq-accordion-grid .accordion__content {
+    margin: 0px;
+    padding: 16px 0px 0px 0px;
+}
+.faq-accordion-grid .accordion__title {
+    font-family: 'rival-sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+}
+.faq-accordion-grid .collapsible-content summary:hover .accordion__title {
+    text-decoration: none;
+}
+.faq-accordion-grid .collapsible-content summary:hover {
+    background: rgba(var(--color-foreground), .04);
+    background: none;
+    text-decoration: none;
+}
