@@ -286,3 +286,6 @@ button.faq-filter-button:hover {
     max-width: 100%;
     height: auto;
 }
+.brand-page-section {
+    padding: 0px;
+}
