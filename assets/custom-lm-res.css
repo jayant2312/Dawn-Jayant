@@ -17,7 +17,7 @@
         display: none;
     }
     .faq-filter-desktop{
-        display: block;
+        display: flex;
     }
 }
 
