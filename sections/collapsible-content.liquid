@@ -584,13 +584,17 @@
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     const filterSelect = document.getElementById('category-filter');
-    const gridItems = document.querySelectorAll('.grid-item .accordion');
+    const gridItems = document.querySelectorAll('.grid__item .accordion'); // Selectors adjusted
   
     filterSelect.addEventListener('change', function() {
       const selectedCategory = this.value;
-      console.log(selectedCategory);
+      console.log("Selected Category:", selectedCategory); // Debugging log
       gridItems.forEach(item => {
-        if (selectedCategory === 'all' || item.getAttribute('data-category') === selectedCategory) {
+        const category = item.getAttribute('data-category'); // Get data-category
+        console.log("Current Item Category:", category); // Debugging log
+  
+        // Compare selected category with item's category
+        if (selectedCategory === 'all' || category === selectedCategory) {
           item.style.display = 'block';
         } else {
           item.style.display = 'none';
@@ -599,3 +603,4 @@
     });
   });
   </script>
+  
