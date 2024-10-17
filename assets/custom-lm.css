@@ -215,6 +215,6 @@ justify-content: center; /* Center content vertically */
     cursor: pointer; /* Pointer cursor for buttons */
   }
   
-.faq-mobile {
+.faq-filter-mobile {
     display: none; /* Hide dropdown by default */
 }
