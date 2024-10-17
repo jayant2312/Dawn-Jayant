@@ -233,3 +233,11 @@ button.faq-filter-button:hover {
 .faq-filter-mobile {
     display: none; /* Hide dropdown by default */
 }
+.faq-accordion-grid .accordion {
+    border-top: 0px;
+    margin: 0px;
+    padding: 24px 0px;
+}
+.faq-accordion-grid .accordion summary {
+    padding: 0px;
+}
