@@ -114,7 +114,7 @@
         "heading_PFkY3U": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "our jean collection",
             "heading_size": "h1"
           }
         }
@@ -129,7 +129,7 @@
         "desktop_content_position": "bottom-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-4",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
