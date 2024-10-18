@@ -123,9 +123,9 @@
         "heading_PFkY3U"
       ],
       "settings": {
-        "image": "shopify://shop_images/image_8.png",
-        "image_overlay_opacity": 20,
-        "image_height": "medium",
+        "image": "shopify://shop_images/image_12.png",
+        "image_overlay_opacity": 30,
+        "image_height": "adapt",
         "desktop_content_position": "bottom-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
