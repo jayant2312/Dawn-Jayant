@@ -341,7 +341,7 @@ h2.banner__heading.inline-richtext.h1 {
     text-transform: uppercase;
 }
 h2.title.product-slider-title {
-    padding: 0px 16px 16px 0px;
+    padding: 0px 0px 16px 40px;
     margin: 0px;
 }
 .custom-product-slider-section {
