@@ -460,3 +460,6 @@ h2.title.product-slider-title {
     background: #000;
     color: #fff;
 }
+.custom-image-text-media-box-scheme-1 a.button.button--primary::after, .custom-image-text-media-box-scheme-1 a.button.button--primary::before{
+    display: none
+}
