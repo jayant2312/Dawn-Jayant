@@ -241,3 +241,16 @@ details[open].menu-opening > .menu-drawer__submenu {
     transition: none !important;
   }
 }
+@media (max-width: 989px){
+.js .menu-drawer__navigation .submenu-open{
+visibility: visible;
+}
+.js .menu-drawer__submenu{
+position: static;
+transform: none !important;
+background-color: #f5f5f5;
+}
+.menu-drawer__close-button{
+display: none;
+}
+}
