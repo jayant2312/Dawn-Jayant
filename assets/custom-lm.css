@@ -439,3 +439,6 @@ h2.title.product-slider-title {
     letter-spacing: 1.54px;
     text-transform: uppercase;
 }
+.custom-image-text-media-box-scheme-1 .image-with-text__media {
+    border: 0px !important;
+}
