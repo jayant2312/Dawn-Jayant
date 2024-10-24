@@ -392,3 +392,8 @@ h2.title.product-slider-title {
     width: 100%;
     height: auto;
 }
+
+.collection-card-wrapper .card, .contains-card--collection {
+    border-radius: 0px;
+    border: 0px;
+}
