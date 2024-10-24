@@ -407,7 +407,7 @@ h2.title.product-slider-title {
     bottom: 38px;
 }
 .homepage-collection-list-item .card__content .card__information {
-    padding: 12px 18px;
+    padding: 12px 18px !important;
 }
 .homepage-collection-list-item .card__content .card__information h3 {
     color: var(--Rich-Black, #000);
