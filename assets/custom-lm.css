@@ -422,3 +422,10 @@ h2.title.product-slider-title {
 .homepage-collection-list-item .card__content .card__information h3 .icon-wrap {
     display: none;
 }
+.homepage-collection-list-item .card__content:hover {
+    background: #000;
+    color: #fff;
+}
+.homepage-collection-list-item .card__content:hover a{
+    color: #fff;
+}
