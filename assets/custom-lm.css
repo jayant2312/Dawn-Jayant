@@ -397,3 +397,28 @@ h2.title.product-slider-title {
     border-radius: 0px;
     border: 0px;
 }
+.homepage-collection-list-item .card__content {
+    position: absolute !important;
+    width: auto;
+    padding: 0px !important;
+    background: #fff;
+    height: auto;
+    left: 40px;
+    bottom: 38px;
+}
+.homepage-collection-list-item .card__content .card__information {
+    padding: 12px 18px;
+}
+.homepage-collection-list-item .card__content .card__information h3 {
+    color: var(--Rich-Black, #000);
+    font-family: 'rival-sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.homepage-collection-list-item .card__content .card__information h3 .icon-wrap {
+    display: none;
+}
